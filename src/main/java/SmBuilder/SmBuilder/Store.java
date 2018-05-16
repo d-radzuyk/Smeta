@@ -63,12 +63,12 @@ public class Store extends JPanel{
 	private 		JButton btparamedit;
 			//просто заголовки для столбцев таблицы материалов(table)
 	private String[] columnNames = {
-	           "Код",
-	           "Наименование",
-	           "Класс"
+	           "Code",
+	           "Name",
+	           "class"
 	     };
 	//просто заголовки для столбцев таблицы мпараметров(table2)
-	private String[] columnNames2={"Параметр","Имя","Тип","Значение"};
+	private String[] columnNames2={"Parameter","Name","Type","Value"};
 	
 	//показывает индекс выделенного материала
 	private int selectmaterial=-1;
@@ -247,9 +247,7 @@ public class Store extends JPanel{
 			data[i]=new String[3];
 			//поле Код
 			data[i][0]=String.valueOf(m.getID());
-			//Поле Имя
 			data[i][1]=m.getName();
-			//Поле Имя класса
 			data[i][2]=m.getClassname();
 			
 			

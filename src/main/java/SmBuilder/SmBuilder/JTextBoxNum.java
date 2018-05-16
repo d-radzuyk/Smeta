@@ -6,7 +6,6 @@ import javax.swing.JTextField;
 /*
  * Класс JTextBoxNum позволяет создовать текстовые поля 
  * целочисленного типа.
- * Из объявления класса ясно что это, в первую очередь, текстовое поле.
  * 
  * */
 public class JTextBoxNum extends JTextField{

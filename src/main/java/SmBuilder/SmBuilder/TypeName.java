@@ -1,6 +1,5 @@
 package SmBuilder.SmBuilder;
 
-//Класс ИмяТипа
 public class TypeName {
 	
 		    String tname;
